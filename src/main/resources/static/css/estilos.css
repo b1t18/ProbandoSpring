@@ -1,0 +1,52 @@
+/*Propiedades al Titulo Principal:
+  Texto esté centrado
+  Tamaño de 30 px
+  Fuente Monospace
+  Subrayado*/
+
+ .titulo{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	font-family: Monospace;
+ 	text-decoration:underLine;
+ 	color: #1A0D64;
+ }
+ 
+ .logo{
+ 	width: 20%;
+ }
+
+ul li{
+	list-style: none;
+}
+ 
+ .home{
+ 	display:block;
+ 	background: #24447C;
+ 	color: #fff;
+ 	text-align: center;
+ 	margin: 8px;
+ 	padding: 10px 20px;
+ 	width: 100px;
+ 	text-decoration: none; 
+ 	border-radius: 2.5px;
+ 	border: none;
+ 	font-family: inherit;
+ 	font-size: 20px;
+
+ }
+ 
+ .saludo{
+ 	display:block;
+ 	background: #24447C;
+ 	color: #fff;
+ 	text-align: center;
+ 	margin: 8px;
+ 	padding: 10px 20px;
+ 	width: 100px;
+ 	text-decoration: none; 
+ 	border-radius: 2.5px;
+ 	font-family: inherit;
+ 	font-size: 20px;
+
+ }

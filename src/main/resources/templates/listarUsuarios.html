@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title  th:text="${titulo}"></title>
+</head>
+<body>
+	<h2 th:text="${titulo}"></h2>
+	<div th:if="${usuarios.size()==0}" th:text="'No hay usuarios'">
+	</div>
+	<table border='1' th:if="${usuarios.size()>0}">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="usuarios: ${usuarios}">
+				<td align='center' th:text="${usuarios.nombre}"></td>
+				<td align='center' th:text="${usuarios.apellido}"></td>
+				<td align='center' th:text="${usuarios.email}"></td>
+			</tr>
+		</tbody>
+	</table>
+	<img src="../static/html5.png" alt='aea'>
+</body>
+</html>
